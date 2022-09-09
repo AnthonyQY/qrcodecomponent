@@ -2,8 +2,8 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html>
-      <Head lang="en">
+    <Html lang="en">
+      <Head>
         <link
           rel="apple-touch-icon"
           sizes="180x180"
