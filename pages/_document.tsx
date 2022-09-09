@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 export default function Document() {
   return (
     <Html>
-      <Head>
+      <Head lang="en">
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -30,8 +30,10 @@ export default function Document() {
         />
       </Head>
       <body>
-        <Main />
-        <NextScript />
+        <main>
+          <Main />
+          <NextScript />
+        </main>
       </body>
     </Html>
   );
